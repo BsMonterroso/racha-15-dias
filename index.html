@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Racha de 15 días | Reto Juvenil</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="app-container">
+
+        <!-- ENCABEZADO -->
+
+        <header class="header">
+
+            <div class="fire-icon">🔥</div>
+
+            <p class="eyebrow">RETO JUVENIL DE LECTURA BÍBLICA</p>
+
+            <h1>Racha de 15 días</h1>
+
+            <p class="subtitle">
+                Un día a la vez, creciendo en la Palabra.
+            </p>
+
+        </header>
+
+
+        <!-- ESTADÍSTICAS -->
+
+        <section class="stats-container">
+
+            <article class="stat-card">
+
+                <h2 id="completed-days">0/15</h2>
+
+                <p>Días completados del grupo</p>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" id="group-progress"></div>
+                </div>
+
+            </article>
+
+
+            <article class="stat-card">
+
+                <h2 id="today-count">0/15</h2>
+
+                <p>Lecturas marcadas hoy</p>
+
+            </article>
+
+        </section>
+
+
+        <!-- CALENDARIO -->
+
+        <section class="calendar-section">
+
+            <div class="section-heading">
+
+                <h2>🔥 Marcar lectura</h2>
+
+                <span id="admin-status">Solo administrador</span>
+
+            </div>
+
+            <div class="days-grid" id="days-grid">
+
+                <!-- JavaScript generará los 15 días -->
+
+            </div>
+
+        </section>
+
+
+        <!-- PARTICIPANTES -->
+
+        <section class="participants-section">
+
+           <div class="section-heading">
+    <h2>👥 Participantes (15)</h2>
+
+    <button id="mark-all-btn" class="mark-all-btn" hidden>
+        Marcar todos
+    </button>
+</div>
+
+
+            <div class="participants-list" id="participants-list">
+
+                <!-- JavaScript generará los participantes -->
+
+            </div>
+
+        </section>
+
+
+        <!-- PIE DE PÁGINA -->
+
+        <footer class="footer">
+
+            <p>🔥 15 días creciendo juntos en la Palabra de Dios.</p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
