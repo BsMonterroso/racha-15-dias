@@ -118,6 +118,41 @@
     </main>
 
 
+<!-- ACCESO DE ADMINISTRADOR -->
+<section class="admin-login">
+
+    <div id="admin-login">
+        <h2>Acceso de administrador</h2>
+
+        <form id="login-form">
+            <input
+                type="email"
+                id="admin-email"
+                placeholder="Correo electrónico"
+                required
+            >
+
+            <input
+                type="password"
+                id="admin-password"
+                placeholder="Contraseña"
+                required
+            >
+
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+
+    <button id="logout-btn" hidden>
+        Cerrar sesión
+    </button>
+
+    <p id="login-message"></p>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- JAVASCRIPT -->
 
     <script src="script.js"></script>
